@@ -1,0 +1,101 @@
+html,body{
+    margin:0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background: #f5f0f0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 65px;
+    box-shadow: rgb(0 0 0 /24%) 0px 3px 8px;
+}
+
+.slidebox{
+    overflow: hidden;
+    width: 83vw;
+    margin-left: 8vw;
+}
+
+.slider{
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+    
+}
+.left img{
+    width: 35px;
+    height: 23px;
+}
+
+.container{
+    padding: 0 8vw;
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+    background: #f5f0f0;
+    
+} 
+
+.search{
+    width: 20vw;
+    padding: 7px 17px;
+    border:0.5px solid grey ;
+    border-radius: 5px;
+    background: #f7f8fd;
+}
+
+.homeImg{
+    width: 83vw;
+    margin: 12px 0;
+}
+
+.itemImg{
+    width: 18vw;
+    margin: 6px 17px;
+}
+
+footer{
+     padding: 23px;
+     text-align: center;
+     box-shadow: rgb(0 0 0 /24%) 0px 3px 8px;
+}
